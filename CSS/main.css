@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1920px;
+    height: 72px;
+    border-bottom: 1px solid #D6D6D6;
+    margin: 0 auto;
+}
+.first__logo,
+.first__nav {
+    float: left;
+}
+.first__logo {
+    margin-top: 22px;
+    margin-left: 405px;
+}
+.first__nav {
+    margin-top: 26px;
+    margin-left: 32px;
+}
+.first__nav ul {
+    list-style: none;
+}
+
+.first__nav ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.first__nav ul li:last-of-type {
+    margin-right: 0;
+}
+.first__login {
+    float: right;
+    margin-top: 16px;
+    margin-right: 405px;
+}
+.first__login a {
+    margin-top: 13px;
+    display: inline-block;
+    margin-right: 55px;
+    text-decoration: none;
+}
+
+.first__login .button {
+    margin-top: 0;
+    color: #fff;
+    margin-right: 0;
+}
+.link {
+    color: #18191F;
+    text-decoration: none;
+    transition: all .2s;
+    padding-bottom: 4px;
+    border-bottom: 1px solid transparent;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.link:hover {
+    border-bottom: 1px solid #292929;
+}
+
+.link:active {
+    color: #404040;
+    border-bottom: 1px solid #404040;
+}
+.first__background {
+    width: 1920px;
+    height: 870px;
+    background-image: url(/Landify_project/images/Background.png);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.zag {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    font-family: 'Manrope', sans-serif;
+    width: 730px;
+    height: 196px;
+    margin-top: 168px;
+    margin-left: 404px;
+}
+.but {
+    width: 196px;
+    height: 62px;
+    margin-top: 32px;
+    margin-left: 404px;
+    background-color: #8C30F5;
+    border-radius: 8px;
+    color: white;
+    padding-left: 41px;
+    padding-top: 16px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px; 
+}
+.phone {
+    margin-right: 420px;
+    background-image: url(/Landify_project/images/Group\ 1.png);
+    width: 320px;
+    height: 640px;
+    margin-left: 45px;
+    float: right;
+    margin-top: -350px;
+}
+.ad {
+    border-bottom: 1px solid #D6D6D6;
+    width: 1110px;
+    height: 110px;
+    margin-top: 100px;
+    margin-left: 405px;
+    border-top: 1px solid #D6D6D6;
+    margin-top: 1px;
+    overflow: hidden;
+    padding-left: 110px;
+}
+.ad ul {
+    list-style: none;
+}
+
+.ad ul li {
+    display: inline-block;
+    margin-right: 64px;
+}
+
+.ad ul li:last-of-type {
+    margin-right: 0;
+}
+.link3 {
+    margin-top: 41px;
+}
+.zag1 {
+    width: 540px;
+    height: 136px;
+    text-align: center;
+}
+.H1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    
+}
+.tyxt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 8px;
+    width: 540px;
+    height: 64px;
+    margin-left: 285px;
+}
+.block1 {
+    text-align: center;
+    width: 1110px;
+    height: 544px;
+    margin-left: 405px;
+    margin-top: 80px;
+}
+.gag {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+.osnov {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.chest {
+    width: 350px;
+    height: 148px;
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 15px;
+}
+.stories {
+    position: absolute;
+    width: 1920px;
+    height: 896px;
+    left: 0px;
+    top: 1680px;
+    background-color: #D5FAFC;
+    margin-top: 64px;
+    overflow: hidden;
+
+}
+.quote {
+    margin-top: 64px;
+    margin-left: 405px;
+    position: inherit;
+    z-index: 1;
+}
+.stories1 {
+    width: 445px;
+    height: 168px;
+    margin-top: 120px;
+    margin-left: 500px;
+    position: inherit;
+}
+.tbxt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    position: relative;
+    z-index: 2;
+}
+.podtbxt {
+    width: 445px;
+    height: 32px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.stories2 {
+    width: 445px;
+    height: 340px;
+    background-color: white;
+    margin-top: 168px;
+    margin-left: 975px;
+    position: inherit;
+}
+.stories3 {
+    width: 350px;
+    height: 436px;
+    background-color: white;
+    margin-top: 312px;
+    margin-left: 595px;
+    position: inherit;
+}
+.stories4 {
+    width: 350px;
+    height: 276px;
+    background-color: white;
+    position: inherit;
+    margin-top: 540px;
+    margin-left: 975px;
+}
+.air {
+    width: 130px;
+    height: 40px;
+    margin-top: 32px;
+    margin-left: 32px;
+    position: inherit;
+}
+.quote2 {
+    width: 16px;
+    height: 14px;
+    margin-top: 104px;
+    margin-left: 32px;
+    position: inherit;
+}
+.tgxt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 349px;
+    height: 128px;
+    margin-top: 104px;
+    margin-left: 64px;
+    position: inherit;
+}
+.thxt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 256px;
+    margin-left: 64px;
+}
+.tjxt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 64px;
+    color: #969BAB
+}
+.hub {
+    width: 140px;
+    height: 40px;
+    margin-top: 32px;
+    margin-left: 32px;
+    position: inherit;
+}
+.tgxt2 {
+    width: 254px;
+    height: 224px;
+    margin-top: 104px;
+    margin-left: 64px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    position: inherit;
+}
+.thxt2 {
+    margin-top: 352px;
+    margin-left: 64px;
+    width: 96px;
+    height: 28px;
+    position: inherit;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.tjxt2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+    margin-top: 404px;
+    margin-left: 64px;
+    width: 142px;
+    height: 24px;
+}
+.book {
+    width: 134px;
+    height: 40px;
+    margin: 32px;
+    position: inherit;
+}
+.tgxt3 {
+    width: 254px;
+    height: 64px;
+    position: inherit;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 104px;
+    margin-left: 64px;
+}
+.thxt3 {
+    width: 129px;
+    height: 28px;
+    margin-top: 192px;
+    margin-left: 64px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    position: inherit;
+}
+.tjxt3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+    margin-top: 220px;
+    margin-left: 64px;
+    width: 173px;
+    height: 24px;
+}
+.razdelit {
+    width: 1920px;
+    height: 896px;
+    overflow: hidden;
+}
+.block2 {
+    width: 1110px;
+    height: 172px;
+    margin-top: 160px;
+    margin-left: 405px;
+}
+.glav{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    width: 540px;
+    height: 128px;
+}
+.podglav {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 540px;
+    height: 32px;
+    margin-top: 8px;
+}
+.chet {
+    width: 540px;
+    height: 172px;
+    margin-left: 30px;
+    float: right;
+    margin-top: -175px;
+    
+}
+.icon {
+    width: 48px;
+    height: 48px;
+    margin-top: 8px;
+    margin-left: 8px;
+    position: inherit;
+}
+.num {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+    width: 191px;
+    height: 40px;
+    float: right;
+    position: inherit;
+}
+.tuxt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 191px;
+    height: 26px;
+    float: right;
+    margin-top: -20px;
+}
+.chet1 {
+    width: 255px;
+    height: 66px;
+    margin-right: 130px;
+    float: left;
+}
+.chet2 {
+    width: 255px;
+    height: 66px;
+    margin-top: 40px;
+    float: left;
+}
+.chet3 {
+    width: 255px;
+    height: 66px;
+    margin-left: 30px;
+    float: right;
+    margin-top: -65px;
+    
+}
+.chet4 {
+    width: 255px;
+    height: 66px;
+    margin-top: 40px;
+    float: right;
+}
