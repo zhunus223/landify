@@ -75,7 +75,7 @@
 .first__background {
     width: 1920px;
     height: 870px;
-    background-image: url(/Landify/images/Background.png);
+    background-image: url(/images/Background.png);
     margin: 0 auto;
     overflow: hidden;
 }
@@ -107,7 +107,7 @@
 }
 .phone {
     margin-right: 420px;
-    background-image: url(/Landify/images/Group\ 1.png);
+    background-image: url(/images/Group\ 1.png);
     width: 320px;
     height: 640px;
     margin-left: 45px;
